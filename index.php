@@ -23,7 +23,7 @@
 </div>
     <p class="texto-banner pull-right">Servicios integrales de distribución de productos</p>
     <p class="texto-banner2 pull-right">¡Llevamos tu mercancia a donde tu quieras!</p>
-    <p class="boton"><a href="">Solicita una cotización</a></p>
+    <p class="boton"><a href="vistas/contacto.php">Solicita una cotización</a></p>
   </article>
   </div>
 </article>

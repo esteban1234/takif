@@ -24,7 +24,7 @@
 </div>
     <p class="texto-banner pull-right">Conoce mas sobre TAKIF TRANSPORTES</p>
     <p class="texto-banner2 pull-right">¡Llevamos tu mercancia a donde tu quieras!</p>
-    <p class="boton"><a href="">Solicita una cotización</a></p>
+    <p class="boton"><a href="contacto.php">Solicita una cotización</a></p>
   </article>
   </div>
 </article>
@@ -100,7 +100,7 @@
  <div class="col-xs-12 col-sm-4 col-md-3">
             <div class="box">
                 <div class="box-icon">
-                    <span class="fa fa-4x fa-fire"></span>
+                    <span class="fa fa-4x fa-star"></span>
                 </div>
                 <div class="info">
                     <h4 class="text-center">Experiencia</h4>
@@ -111,10 +111,10 @@
         <div class="col-xs-12 col-sm-4 col-md-3">
             <div class="box">
                 <div class="box-icon">
-                    <span class="fa fa-4x fa-fire"></span>
+                    <span class="fa fa-4x fa-unlock-alt"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Experiencia</h4>
+                    <h4 class="text-center">Control de calidad</h4>
                 </div>
             </div>
         </div>
@@ -122,24 +122,26 @@
         <div class="col-xs-12 col-sm-4 col-md-3">
             <div class="box">
                 <div class="box-icon">
-                    <span class="fa fa-4x fa-fire"></span>
+                    <span class="fa fa-4x fa-money"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Experiencia</h4>
+                    <h4 class="text-center">Economia</h4>
                 </div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3">
             <div class="box">
                 <div class="box-icon">
-                    <span class="fa fa-4x fa-fire"></span>
+                    <span class="fa fa-4x fa-shield"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Experiencia</h4>
+                    <h4 class="text-center">seguridad</h4>
                 </div>
             </div>
         </div>
 </article>
+
+<p class="boton"><a href="contacto.php">Solicita una cotización</a></p>
     
   
 <?php include 'pie.php' ?>
