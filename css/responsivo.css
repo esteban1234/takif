@@ -37,6 +37,7 @@
 
 	.contenmenutexto{
 		width: 95%;
+		/*position: fixed;*/
 	}
 
 	.vertical-menu{
@@ -107,7 +108,8 @@
 	}
 
 	.text-center-size{
-		font-size: 10px;
+		font-size: 25px;
+		font-weight: bold;
 	}
 
 	.lead{
@@ -118,6 +120,51 @@
 		display: none;
 	}
 	/*************END DISEÑO NOSOTROS****************/
+
+	/*************DISEÑO SERVICIOS****************/
+	.grid{
+		text-align: center;
+	}
+
+	.grid figure{
+		display: inline-block;
+		width: 85%;
+		margin: 10px 0px;
+		float: none;
+		height: 250px;
+		border-radius: 10px;
+		min-width: 85%;
+	}
+
+	/*.effect-julia{
+		border: 2px solid red;
+		width: 100px;
+	}
+*/
+	figcaption h2{
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	figcaption div p{
+		width: 100%;
+		text-align: justify !important;
+	}
+
+	/*************END DISEÑO SERVICIOS****************/
+
+	/*************DISEÑO CONTACTO****************/
+	.form1{
+		width: 95%;
+		margin: auto;
+		float: none !important;
+	}
+
+	/*form h1{
+		border: 2px solid red;
+		width: 100%;
+	}*/
+	/*************END DISEÑO CONTACTO****************/
 
 	/*************DISEÑO FOOTER****************/
 	footer{
@@ -136,7 +183,192 @@
 
 }
 
-@media screen and (max-width: 599px) and (min-width: 481px) {}
+@media screen and (max-width: 599px) and (min-width: 481px) {
+		/**************DISEÑO INDEX**************/
+
+	.banner{
+		height: 400px;
+	}
+
+	.fondo{
+		height: 100%;
+	}
+	
+	.primary-img{
+		width: 38%;
+	}
+
+	.primary-img img{
+		width: 100%;
+	}
+
+	.contenlogocorreo{
+		width: 100%;
+	}
+
+	.correoarriba{
+		margin: 9% 5%;
+	}
+
+	.correoarriba i{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 8%;
+	}
+
+	.textocorreoarriba a{
+		font-size: 20px;
+	}
+
+	.contenmenutexto{
+		width: 95%;
+		/*position: fixed;*/
+	}
+
+	.vertical-menu{
+		width: 70%;
+		float: none !important;
+		margin: auto;
+	}
+	
+
+	.contenmenutexto p{
+		display: none;
+	}
+
+	.row h2{
+		font-size: 25px;
+		color: #000 !important;
+	}
+
+	.col-xs-12 img, .col-xs-12 p{
+		width: 85% !important;
+		margin: auto;
+	}
+
+	.col-xs-12 img{
+		height: 180px !important;
+	}
+
+	.col-xs-12 p{
+		text-align: justify;
+	}
+
+	.carousel-control{
+		margin-top: 75px !important;
+	}
+
+	.banner2{
+		height: 130px;
+	}
+
+	.banner2 p{
+		font-size: 25px;
+	}
+
+	.seccionmercados h1{
+		font-size: 20px;
+		color: #000 !important;
+		margin-bottom: 10%;
+	}
+
+	.contenmercados{
+		width: 85%;
+	}
+
+	.uno{
+		width: 100%;
+		margin-bottom: 10%;
+		border-bottom: .5px solid #000;
+	}
+
+	.text-size{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*************END DISEÑO INDEX****************/
+
+	/*************DISEÑO NOSOTROS****************/
+	.text-primary{
+		text-align: center;
+		font-size: 25px;
+	}
+
+	.text-center-size{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.lead{
+		padding: 0px 3%;
+	}
+
+	.boton{
+		display: none;
+	}
+	/*************END DISEÑO NOSOTROS****************/
+
+	/*************DISEÑO SERVICIOS****************/
+	.grid{
+		text-align: center;
+	}
+
+	.grid figure{
+		display: inline-block;
+		width: 85%;
+		margin: 10px 0px;
+		float: none;
+		height: 250px;
+		border-radius: 10px;
+		min-width: 85%;
+	}
+
+	/*.effect-julia{
+		border: 2px solid red;
+		width: 100px;
+	}
+*/
+	figcaption h2{
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	figcaption div p{
+		width: 100%;
+		text-align: justify !important;
+	}
+
+	/*************END DISEÑO SERVICIOS****************/
+
+	/*************DISEÑO CONTACTO****************/
+	.form1{
+		width: 95%;
+		margin: auto;
+		float: none !important;
+	}
+
+	/*form h1{
+		border: 2px solid red;
+		width: 100%;
+	}*/
+	/*************END DISEÑO CONTACTO****************/
+
+	/*************DISEÑO FOOTER****************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		padding: 3% 6%;
+	}
+
+	.text-justify{
+		text-align: justify;
+	}
+	/*************END DISEÑO FOOTER****************/
+}
 
 @media screen and (max-width: 799px) and (min-width: 600px) {}
 

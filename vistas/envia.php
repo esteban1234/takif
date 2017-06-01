@@ -1,15 +1,20 @@
 <?php
 //Librerías para el envío de mail
 require('../phpmailer/phpmailer/class.phpmailer.php');
+
 //PHPMailer Object
 $mail = new PHPMailer();
 
 // Recoger los valores del Formulario
 
-$nombre = $_POST['txtnombre'];
-$telefono = $_POST['txttelefono'];
-$correo = $_POST['txtcorreo'];
-$comentario = $_POST['txtcomentario'];
+$nombre = $_POST['txtNOMBRE'];
+$telefono = $_POST['txtTELEFONO'];
+$correo = $_POST['txtCORREO'];
+$comentario = $_POST['txtCOMENTARIO'];
+
+// if (filter_var($, FILTER_VALIDATE_EMAIL)) {
+//     echo "Esta dirección de correo ($email_a) es válida.";
+// }
 
 $mail->CharSet = 'utf-8';
 //From email address and name
@@ -17,7 +22,8 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@takif.net");
+// $mail->addAddress("info@takif.net");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 
 $mail->isHTML(true);
@@ -30,20 +36,23 @@ $mail->Body = "
 
 if(!$mail->send())
 {
-    // echo "Error al enviar Mensaje: " . $mail->ErrorInfo;
-    echo ("<SCRIPT LANGUAGE='JavaScript'>
-          window.alert('Error al Enviar MENSAJE')
-          window.location.href='contacto.php'
-        </SCRIPT>");
+  
+  $html = '<div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Error</strong> al enviar los datos.
+                </div>';
 
 }
 else
 {
-  echo ("<SCRIPT LANGUAGE='JavaScript'>
-        window.alert('Mensaje Enviado Correctamente')
-        window.location.href='contacto.php'
-      </SCRIPT>");
-
+ 
+ $html = '<div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Datos</strong> Enviados Correctamente.
+                </div>';
 
 }
+
+echo $html;
+
 ?>

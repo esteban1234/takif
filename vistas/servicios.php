@@ -28,7 +28,7 @@
   </div>
 </article>
 
-<h1 class="text-center" style="color: #74A4D0; margin-top: 5%;">Nuestros servicios</h1>
+<h1 class="text-center text-center-size" style="color: #74A4D0; margin-top: 5%;">Nuestros servicios</h1>
 
 <div class="grid">
           <figure class="effect-julia">

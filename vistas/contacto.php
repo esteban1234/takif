@@ -82,18 +82,19 @@
 <article class="contenformmapa">
   <div class="form1 pull-left">
 
-    <form role="form">
+    <form role="form" action="" method="" onSubmit="return false">
         <h1 style="text-align: center; color: #74A4D0; margin-top: 5%;">Formulario de contacto</h1>
+        <div id="_AJAX_PRE_"></div>
         <br>
         <div class="required-field-block">
-            <input type="text" placeholder="Escribe tu nombre completo" class="form-control">
+            <input type="text" id="txtNOMBRE" placeholder="Escribe tu nombre completo" class="form-control">
             <div class="required-icon">
                 <div class="text">*</div>
             </div>
         </div>
         
         <div class="required-field-block">
-            <input type="text" placeholder="Escribe tu correo" class="form-control">
+            <input type="text" id="txtCORREO" placeholder="Escribe tu correo" class="form-control">
             <div class="required-icon">
                 <div class="text">*</div>
             </div>
@@ -101,20 +102,20 @@
 
         <!-- <input type="text" placeholder="Phone" class="form-control"> -->
         <div class="required-field-block">
-            <input type="text" placeholder="Escribe tu teléfono" class="form-control">
+            <input type="text" id="txtTELEFONO" placeholder="Escribe tu teléfono" class="form-control">
             <div class="required-icon">
                 <div class="text">*</div>
             </div>
         </div>
  
         <div class="required-field-block">
-            <textarea rows="3" class="form-control" placeholder="Escribenos un mensaje"></textarea>
+            <textarea rows="3" id="txtCOMENTARIO" class="form-control" placeholder="Escribenos un mensaje"></textarea>
             <div class="required-icon">
                 <div class="text">*</div>
             </div>
         </div>
         
-        <button class="btn btn-primary">ENVIAR</button>
+        <button class="btn btn-primary" onclick="sendCORREO()">ENVIAR</button>
     </form>
 
   </div>
@@ -128,6 +129,7 @@
 <script src="../js/bootstrap.js"></script>
 <script src="../js/funciondthc.js"></script>
 <script src="../js/requerido.js"></script>
+<script src="../js/sendCORREO.js"></script>
 
 </body>
 </html>
