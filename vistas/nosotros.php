@@ -29,14 +29,14 @@
   </div>
 </article>
 
-<h1 class="text-center" style="color: #74A4D0; margin-top: 5%;">Nuestra experiencia a su servicio</h1>
+<h1 class="text-center text-center-size" style="color: #74A4D0; margin-top: 5%;">Nuestra experiencia a su servicio</h1>
 
 <div class="section textonosotros">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-6">
           <img src="../img/nos.jpg" class="img-fluid img-thumbnail"> </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-6">
           <h1 class="text-primary">TAKIF TRANSPORTES</h1>
           <p class="lead">Somos una garantía para el servicio de distribución de productos en en el pais y confían en nosotros grandes compañías internacionales y nacionales del sector de la alimentación, telécomunicaciones y la construcción. <br><br>TAKIF TRANSPORTES sigue siendo la empresa líder en el transporte de carga terrestre.</p>
         </div>
