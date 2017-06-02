@@ -34,9 +34,9 @@
 <div class="section textonosotros">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 adapted-img">
           <img src="../img/nos.jpg" class="img-fluid img-thumbnail"> </div>
-        <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="col-xs-12 col-sm-12 col-md-8">
           <h1 class="text-primary">TAKIF TRANSPORTES</h1>
           <p class="lead">Somos una garantía para el servicio de distribución de productos en en el pais y confían en nosotros grandes compañías internacionales y nacionales del sector de la alimentación, telécomunicaciones y la construcción. <br><br>TAKIF TRANSPORTES sigue siendo la empresa líder en el transporte de carga terrestre.</p>
         </div>
@@ -46,8 +46,8 @@
 
   <div class="container mvv">
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4">
-            <div class="box">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="box box-height">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-check"></span>
                 </div>
@@ -61,8 +61,8 @@
             </div>
         </div>
         
-        <div class="col-xs-12 col-sm-4 col-md-4">
-            <div class="box">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="box box-height">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-fire"></span>
                 </div>
@@ -74,8 +74,8 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-4">
-            <div class="box">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="box box-height">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-handshake-o"></span>
                 </div>
@@ -97,7 +97,7 @@
 
 <article class="elegir">
  <h1 class="text-center h1por">¿Por qué elegir a TAKIF TRANSPORTES?</h1>
- <div class="col-xs-12 col-sm-4 col-md-3">
+ <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-star"></span>
@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-unlock-alt"></span>
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-money"></span>
@@ -129,7 +129,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fa fa-4x fa-shield"></span>

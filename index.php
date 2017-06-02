@@ -50,10 +50,10 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-3 text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 text-center">
                   <img class="img-rounded" src="img/completo.jpg" style="width: 130px;height:100px;">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
                   <p>Contratación de un trailer o torton completo para el traslado de su mercancía en forma exclusiva.</p>
                   <small>Camión completo</small>
                 </div>
@@ -64,10 +64,10 @@
           <div class="item">
             <blockquote>
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-3 text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 text-center">
                   <img class="img-rounded" src="img/paqueteria.jpg" style="width: 130px;height:100px;">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
                   <p>Envío desde un paquete el cual se concentra en nuestros centros de distribución para enviarse a su destino.</p>
                   <small>Paquetería o viaje consolidado</small>
                 </div>
@@ -78,10 +78,10 @@
           <div class="item">
             <blockquote>
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-3 text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 text-center">
                   <img class="img-rounded" src="img/carga.jpg" style="width: 130px;height:100px;">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
                   <p>Servicio para subir desde la sede de partida y/o bajar la mercancía del camión en su llegada al destino.</p>
                   <small>Maniobras de carga y descarga</small>
                 </div>

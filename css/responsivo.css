@@ -136,16 +136,11 @@
 		min-width: 85%;
 	}
 
-	/*.effect-julia{
-		border: 2px solid red;
-		width: 100px;
-	}
-*/
 	figcaption h2{
 		font-size: 20px;
 		text-align: center;
 	}
-	
+
 	figcaption div p{
 		width: 100%;
 		text-align: justify !important;
@@ -241,7 +236,7 @@
 		color: #000 !important;
 	}
 
-	.col-xs-12 img, .col-xs-12 p{
+	.col-xs-12 img, .col-xs-12 p, small{
 		width: 85% !important;
 		margin: auto;
 	}
@@ -307,6 +302,10 @@
 	.boton{
 		display: none;
 	}
+
+	.adapted-img{
+		text-align: center;
+	}
 	/*************END DISEÑO NOSOTROS****************/
 
 	/*************DISEÑO SERVICIOS****************/
@@ -324,19 +323,9 @@
 		min-width: 85%;
 	}
 
-	/*.effect-julia{
-		border: 2px solid red;
-		width: 100px;
-	}
-*/
 	figcaption h2{
 		font-size: 20px;
 		text-align: center;
-	}
-	
-	figcaption div p{
-		width: 100%;
-		text-align: justify !important;
 	}
 
 	/*************END DISEÑO SERVICIOS****************/
@@ -347,11 +336,6 @@
 		margin: auto;
 		float: none !important;
 	}
-
-	/*form h1{
-		border: 2px solid red;
-		width: 100%;
-	}*/
 	/*************END DISEÑO CONTACTO****************/
 
 	/*************DISEÑO FOOTER****************/
@@ -370,11 +354,373 @@
 	/*************END DISEÑO FOOTER****************/
 }
 
-@media screen and (max-width: 799px) and (min-width: 600px) {}
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/**************DISEÑO INDEX**************/
 
-@media screen and (max-width: 1023px) and (min-width: 800px) {}
+	.banner{
+		height: 400px;
+	}
+
+	.fondo{
+		height: 100%;
+	}
+	
+	.primary-img{
+		width: 38%;
+	}
+
+	.primary-img img{
+		width: 100%;
+	}
+
+	.contenlogocorreo{
+		width: 100%;
+	}
+
+	.correoarriba{
+		margin: 9% 5%;
+	}
+
+	.correoarriba i{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 8%;
+	}
+
+	.textocorreoarriba a{
+		font-size: 20px;
+	}
+
+	.contenmenutexto{
+		width: 95%;
+		/*position: fixed;*/
+	}
+
+	.vertical-menu{
+		width: 55%;
+		float: none !important;
+		margin: auto;
+	}
+	
+
+	.contenmenutexto p{
+		display: none;
+	}
+
+	.row h2{
+		font-size: 25px;
+		color: #000 !important;
+	}
+
+	.col-xs-12 img, .col-xs-12 p, small{
+		width: 75% !important;
+		margin: auto;
+	}
+
+	.col-xs-12 img{
+		height: 180px !important;
+	}
+
+	.col-xs-12 p{
+		text-align: justify;
+	}
+
+	.carousel-control{
+		margin-top: 75px !important;
+	}
+
+	.banner2{
+		height: 130px;
+	}
+
+	.banner2 p{
+		font-size: 25px;
+	}
+
+	.seccionmercados h1{
+		font-size: 20px;
+		color: #000 !important;
+		margin-bottom: 10%;
+	}
+
+	.contenmercados{
+		width: 85%;
+	}
+
+	.uno{
+		width: 50%;
+		margin-bottom: 10%;
+	}
+
+	.text-size{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*************END DISEÑO INDEX****************/
+
+	/*************DISEÑO NOSOTROS****************/
+	.text-primary{
+		text-align: center;
+		font-size: 25px;
+	}
+
+	.adapted-img{
+		text-align: center;
+	}
+
+	.mvv{
+		text-align: center;
+		width: 100%;
+	}
+	/*************END DISEÑO NOSOTROS****************/
+	
+	/*************DISEÑO SERVICIOS****************/
+	.grid{
+		text-align: center;
+	}
+
+	.grid figure{
+		width: 45%;
+		margin: 10px 10px;
+		height: 250px;
+		border-radius: 10px;
+		min-width: 45%;
+	}
+
+	figcaption h2{
+		font-size: 20px;
+		text-align: center;
+	}
+
+	/*************END DISEÑO SERVICIOS****************/
+
+	/*************DISEÑO CONTACTO****************/
+	.form1{
+		width: 75%;
+		margin: auto;
+		float: none !important;
+	}
+
+	.mapa{
+		float: none !important;
+		margin: auto;
+		text-align: center;
+	}
+
+	/*************END DISEÑO CONTACTO****************/
+
+	/*************DISEÑO FOOTER****************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		padding: 3% 6%;
+	}
+
+	.text-justify{
+		text-align: justify;
+	}
+
+	.txt-center{
+		text-align: center;
+	}
+	/*************END DISEÑO FOOTER****************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+	/**************DISEÑO INDEX**************/
+
+	.banner{
+		height: 550px;
+	}
+
+	.fondo{
+		height: 100%;
+	}
+	
+	.primary-img{
+		width: 38%;
+	}
+
+	.primary-img img{
+		width: 100%;
+	}
+
+	.contenlogocorreo{
+		width: 100%;
+	}
+
+	.correoarriba{
+		margin: 9% 5%;
+	}
+
+	.correoarriba i{
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 8%;
+	}
+
+	.textocorreoarriba a{
+		font-size: 30px;
+	}
+
+	.contenmenutexto{
+		width: 95%;
+	}
+
+	.vertical-menu{
+		width: 45%;
+		float: none !important;
+		margin: auto;
+	}
+	
+
+	.contenmenutexto p{
+		display: none;
+	}
+
+	.row h2{
+		font-size: 25px;
+		color: #000 !important;
+	}
+
+	.col-xs-12 img, .col-xs-12 p, small{
+		width: 75% !important;
+		margin: auto;
+	}
+
+	.col-xs-12 img{
+		height: 180px !important;
+	}
+
+	.col-xs-12 p{
+		text-align: justify;
+	}
+
+	.carousel-control{
+		margin-top: 75px !important;
+	}
+
+	.banner2{
+		height: 130px;
+	}
+
+	.banner2 p{
+		font-size: 25px;
+	}
+
+	.seccionmercados h1{
+		font-size: 20px;
+		color: #000 !important;
+		margin-bottom: 10%;
+	}
+
+	.contenmercados{
+		width: 85%;
+	}
+
+	.uno{
+		width: 50%;
+		margin-bottom: 10%;
+	}
+
+	.text-size{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*************END DISEÑO INDEX****************/
+
+	/*************DISEÑO NOSOTROS****************/
+	.adapted-img{
+		text-align: center;
+	}
+
+	.text-primary{
+		text-align: center;
+		font-size: 25px;
+	}
+
+
+	.box-height{
+		height: 350px;
+	}
+
+	.mvv{
+		text-align: center;
+		width: 100%;
+	}
+	/*************END DISEÑO NOSOTROS****************/
+
+	/*************DISEÑO CONTACTO****************/
+	.form1{
+		width: 45%;
+		/*float: none !important;*/
+	}
+
+	.mapa{
+		/*float: none !important;*/
+		text-align: center;
+		width: 45%;
+	}
+
+	/*************END DISEÑO CONTACTO****************/
+
+	/*************DISEÑO FOOTER****************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 100%;
+		padding: 3% 6%;
+	}
+
+	.text-justify{
+		text-align: justify;
+	}
+
+	.txt-center{
+		text-align: center;
+	}
+	/*************END DISEÑO FOOTER****************/
+}
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+
+	/**************DISEÑO INDEX**************/
+
+	.contenmercados{
+		border: 2px solid red;
+		width: 95%;
+	}
+
+	.text-size{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*************END DISEÑO INDEX****************/
+
+	/*************DISEÑO CONTACTO****************/
+	.form1{
+		width: 45%;
+		/*float: none !important;*/
+	}
+
+	.mapa{
+		/*float: none !important;*/
+		text-align: center;
+		width: 45%;
+	}
+
+	/*************END DISEÑO CONTACTO****************/
+
+
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 
